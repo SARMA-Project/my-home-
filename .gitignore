@@ -1,13 +1,29 @@
-﻿# Arduino build artifacts
+# Arduino / PlatformIO build artifacts
 *.obj
 *.elf
 *.bin
 *.hex
 *.map
+*.lst
 build/
 .pio/
+.pioenvs/
 
-# OS files
+# Arduino IDE cache
+.arduino15/
+libraries/
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*~
